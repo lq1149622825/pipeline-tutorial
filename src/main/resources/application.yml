@@ -1,0 +1,5 @@
+spring:
+  security:
+    user:
+      name: qiang.lv
+      password: lq596240
