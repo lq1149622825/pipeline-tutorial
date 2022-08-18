@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building spring boot'
+                sh './gradlew build'
             }
         }
         stage('Test') {
