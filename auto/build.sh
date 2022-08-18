@@ -1,5 +1,5 @@
 #!/bin/bash
 
-# test 03
+# test 04
 
 ./gradlew build
