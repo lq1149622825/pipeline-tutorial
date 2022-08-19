@@ -24,7 +24,7 @@ pipeline {
                 sh '''
                    ./gradlew sonarqube \
                   -Dsonar.projectKey=pipeline \
-                  -Dsonar.host.url=http://0.0.0.0:9000 \
+                  -Dsonar.host.url=http://192.168.3.8:9000 \
                   -Dsonar.login=jenkins
                   '''
              }
