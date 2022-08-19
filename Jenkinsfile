@@ -18,5 +18,10 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+        stage('sonar') {
+             steps {
+                echo 'Deploying....'
+             }
+        }
     }
 }
